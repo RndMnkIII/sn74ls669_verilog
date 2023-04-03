@@ -1,0 +1,87 @@
+[*]
+[*] GTKWave Analyzer v3.3.108 (w)1999-2020 BSI
+[*] Mon Apr 03 16:22:01 2023
+[*]
+[dumpfile] "F:\Arcade_PCB\Breywood\Breywood_simu\rtl\ttl\dump.vcd"
+[dumpfile_mtime] "Mon Apr 03 16:19:15 2023"
+[dumpfile_size] 6650
+[savefile] "F:\Arcade_PCB\Breywood\Breywood_simu\rtl\ttl\LS669_TEST_GTK.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -261 -258
+*-5.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] sn74ls669_tb.
+[treeopen] sn74ls669_tb.dut.
+[sst_width] 254
+[signals_width] 142
+[sst_expanded] 1
+[sst_vpaned_height] 307
+@c00200
+-global
+@200
+-Global signals
+@28
+sn74ls669_tb.dut.CLOCKn
+sn74ls669_tb.dut.ENABLE_Pn
+sn74ls669_tb.dut.ENABLE_P
+sn74ls669_tb.dut.ENABLE_T
+sn74ls669_tb.dut.ENABLE_Tn
+sn74ls669_tb.dut.LOADn
+sn74ls669_tb.dut.LOAD
+sn74ls669_tb.dut.LOADnn
+sn74ls669_tb.dut.U_Dn
+sn74ls669_tb.dut.U_D
+sn74ls669_tb.dut.U_Dnn
+@1401200
+-global
+@c00200
+-block A
+@200
+-Block A
+@28
+sn74ls669_tb.dut.anda_1
+sn74ls669_tb.dut.anda_2
+sn74ls669_tb.dut.nora_1
+sn74ls669_tb.dut.nanda_1
+sn74ls669_tb.dut.anda_3
+sn74ls669_tb.dut.anda_4
+sn74ls669_tb.dut.ora_1
+sn74ls669_tb.dut.dffa_q
+sn74ls669_tb.dut.dffa_qn
+@1401200
+-block A
+@c00200
+-block B
+@200
+-Block B
+@28
+sn74ls669_tb.dut.andb_1
+sn74ls669_tb.dut.andb_2
+sn74ls669_tb.dut.norb_1
+sn74ls669_tb.dut.nandb_1
+sn74ls669_tb.dut.andb_3
+sn74ls669_tb.dut.andb_4
+sn74ls669_tb.dut.orb_1
+sn74ls669_tb.dut.dffb_q
+sn74ls669_tb.dut.dffb_qn
+@1401200
+-block B
+@200
+-Input
+@29
+sn74ls669_tb.clk
+@28
+sn74ls669_tb.LOADn
+sn74ls669_tb.U_Dn
+sn74ls669_tb.ENPn
+sn74ls669_tb.ENTn
+@22
+sn74ls669_tb.D[3:0]
+@200
+-Output
+@22
+sn74ls669_tb.Q[3:0]
+@28
+sn74ls669_tb.RCOn
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,1196 @@
+$date
+	Mon Apr 03 18:32:18 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module sn74ls669_tb $end
+$var wire 1 ! RCOn $end
+$var wire 4 " Q [3:0] $end
+$var reg 4 # D [3:0] $end
+$var reg 1 $ ENPn $end
+$var reg 1 % ENTn $end
+$var reg 1 & LOADn $end
+$var reg 1 ' U_Dn $end
+$var reg 1 ( clk $end
+$scope module dut $end
+$var wire 1 ( CLOCK $end
+$var wire 1 ) CLOCKn $end
+$var wire 4 * DATA [3:0] $end
+$var wire 1 + ENA $end
+$var wire 1 , ENABLE_P $end
+$var wire 1 $ ENABLE_Pn $end
+$var wire 1 - ENABLE_T $end
+$var wire 1 % ENABLE_Tn $end
+$var wire 1 . LOAD $end
+$var wire 1 & LOADn $end
+$var wire 1 / LOADnn $end
+$var wire 1 ! RCOn $end
+$var wire 1 0 U_D $end
+$var wire 1 ' U_Dn $end
+$var wire 1 1 U_Dnn $end
+$var wire 1 2 anda_1 $end
+$var wire 1 3 anda_2 $end
+$var wire 1 4 anda_3 $end
+$var wire 1 5 anda_4 $end
+$var wire 1 6 andb_1 $end
+$var wire 1 7 andb_2 $end
+$var wire 1 8 andb_3 $end
+$var wire 1 9 andb_4 $end
+$var wire 1 : andc_1 $end
+$var wire 1 ; andc_2 $end
+$var wire 1 < andc_3 $end
+$var wire 1 = andc_4 $end
+$var wire 1 > andd_1 $end
+$var wire 1 ? andd_2 $end
+$var wire 1 @ andd_3 $end
+$var wire 1 A andd_4 $end
+$var wire 1 B dataa_ld $end
+$var wire 1 C datab_ld $end
+$var wire 1 D datac_ld $end
+$var wire 1 E datad_ld $end
+$var wire 1 F nanda_1 $end
+$var wire 1 G nandb_1 $end
+$var wire 1 H nandc_1 $end
+$var wire 1 I nandd_1 $end
+$var wire 1 J nora_1 $end
+$var wire 1 K norb_1 $end
+$var wire 1 L norc_1 $end
+$var wire 1 M nord_1 $end
+$var wire 1 N ora_1 $end
+$var wire 1 O orb_1 $end
+$var wire 1 P orc_1 $end
+$var wire 1 Q ord_1 $end
+$var wire 1 R dffd_qn $end
+$var wire 1 S dffd_q $end
+$var wire 1 T dffc_qn $end
+$var wire 1 U dffc_q $end
+$var wire 1 V dffb_qn $end
+$var wire 1 W dffb_q $end
+$var wire 1 X dffa_qn $end
+$var wire 1 Y dffa_q $end
+$var wire 4 Z Q [3:0] $end
+$scope module dff_a $end
+$var wire 1 N D $end
+$var wire 1 Y Q $end
+$var wire 1 X Qn $end
+$var wire 1 ) clk $end
+$var reg 1 [ Q_current $end
+$upscope $end
+$scope module dff_b $end
+$var wire 1 O D $end
+$var wire 1 W Q $end
+$var wire 1 V Qn $end
+$var wire 1 ) clk $end
+$var reg 1 \ Q_current $end
+$upscope $end
+$scope module dff_c $end
+$var wire 1 P D $end
+$var wire 1 U Q $end
+$var wire 1 T Qn $end
+$var wire 1 ) clk $end
+$var reg 1 ] Q_current $end
+$upscope $end
+$scope module dff_d $end
+$var wire 1 Q D $end
+$var wire 1 S Q $end
+$var wire 1 R Qn $end
+$var wire 1 ) clk $end
+$var reg 1 ^ Q_current $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0^
+0]
+0\
+0[
+bx Z
+xY
+xX
+xW
+xV
+xU
+xT
+xS
+xR
+xQ
+xP
+xO
+xN
+xM
+xL
+xK
+xJ
+xI
+xH
+xG
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+b0 *
+x)
+1(
+1'
+1&
+1%
+1$
+b0 #
+bx "
+x!
+$end
+#1
+x[
+x\
+x]
+x^
+0.
+0-
+0,
+00
+0)
+#2
+1/
+0+
+11
+#3
+0B
+0C
+0D
+0E
+#4
+1!
+02
+06
+0:
+0>
+#5
+1I
+0A
+1H
+0=
+1F
+1G
+09
+05
+#16
+b1101 #
+b1101 *
+0%
+0$
+0(
+#17
+1-
+1,
+1)
+#18
+0&
+1+
+#19
+0+
+1.
+#20
+0/
+x!
+#22
+1B
+1D
+1E
+#23
+04
+08
+0<
+0@
+#25
+1N
+1P
+1Q
+#26
+0O
+#32
+1(
+#33
+1^
+1]
+0\
+1[
+0)
+#38
+0R
+0T
+1V
+0X
+1S
+1U
+0W
+b1101 "
+b1101 Z
+1Y
+#41
+0?
+0;
+17
+03
+#44
+1M
+1L
+0K
+1J
+#47
+1!
+#48
+0(
+#49
+1)
+#56
+1&
+#57
+1+
+0.
+#58
+1/
+#60
+0F
+0G
+19
+0B
+0D
+0E
+#61
+1<
+1@
+#63
+1O
+0N
+#64
+1(
+#65
+0[
+1\
+0)
+#70
+1X
+0V
+0Y
+b1110 "
+b1110 Z
+1W
+#73
+15
+13
+09
+07
+#76
+1N
+0J
+0O
+1K
+#79
+1G
+#80
+0(
+#81
+1)
+#82
+18
+#85
+1O
+#96
+1(
+#97
+1[
+0)
+#102
+0X
+b1111 "
+b1111 Z
+1Y
+#105
+05
+03
+#108
+0N
+1J
+#111
+0I
+0H
+0G
+0!
+#112
+0(
+#113
+1)
+#114
+0@
+0<
+08
+#117
+0Q
+0P
+0O
+#128
+1(
+#129
+0[
+0\
+0]
+0^
+0)
+#134
+1X
+1V
+1T
+1R
+0Y
+0W
+0U
+b0 "
+b0 Z
+0S
+#137
+15
+13
+19
+17
+1=
+1;
+1A
+1?
+#140
+1N
+0J
+1O
+0K
+1P
+0L
+1Q
+0M
+#143
+1G
+09
+1!
+1H
+0=
+1I
+0A
+#144
+0(
+#145
+1)
+#146
+0O
+0P
+0Q
+#160
+1(
+#161
+1[
+0)
+#166
+0X
+b1 "
+b1 Z
+1Y
+#169
+05
+03
+#172
+0N
+1J
+#175
+0G
+19
+#176
+0(
+#177
+1)
+#178
+1O
+#192
+1(
+#193
+0[
+1\
+0)
+#198
+1X
+0V
+0Y
+b10 "
+b10 Z
+1W
+#200
+1%
+1$
+#201
+0-
+0,
+15
+13
+09
+07
+#202
+0+
+#204
+1N
+0J
+0O
+1K
+#205
+1F
+1G
+05
+#208
+18
+0N
+0(
+#209
+1)
+#211
+1O
+#224
+1(
+#225
+0)
+#232
+0'
+#233
+10
+#234
+01
+#236
+16
+#237
+03
+0;
+0?
+#239
+0K
+#240
+1J
+1L
+1M
+0(
+#241
+1)
+#256
+1(
+#257
+0)
+#264
+0%
+0$
+#265
+1-
+1,
+#266
+1+
+#269
+0F
+0G
+15
+#272
+08
+1N
+0(
+#273
+1)
+#275
+0O
+#288
+1(
+#289
+0\
+1[
+0)
+#294
+1V
+0X
+0W
+b1 "
+b1 Z
+1Y
+#297
+19
+05
+06
+12
+#300
+1O
+0N
+1K
+0J
+#303
+1G
+09
+#304
+0(
+#305
+1)
+#306
+0O
+#320
+1(
+#321
+0[
+0)
+#326
+1X
+b0 "
+b0 Z
+0Y
+#329
+15
+02
+#332
+1N
+1J
+#335
+0I
+1A
+0H
+1=
+0G
+19
+0!
+#336
+0(
+#337
+1)
+#338
+1Q
+1P
+1O
+#352
+1(
+#353
+1^
+1]
+1\
+1[
+0)
+#358
+0R
+0T
+0V
+0X
+1S
+1U
+1W
+b1111 "
+b1111 Z
+1Y
+#361
+0A
+0=
+09
+05
+1>
+1:
+16
+12
+#364
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+#367
+1I
+1H
+1G
+1!
+#368
+0(
+#369
+1)
+#370
+1@
+1<
+18
+#373
+1Q
+1P
+1O
+#384
+1(
+#385
+0[
+0)
+#390
+1X
+b1110 "
+b1110 Z
+0Y
+#393
+15
+02
+#396
+1N
+1J
+#399
+0G
+#400
+0(
+#401
+1)
+#402
+08
+#405
+0O
+#416
+1(
+#417
+0\
+1[
+0)
+#422
+1V
+0X
+0W
+b1101 "
+b1101 Z
+1Y
+#425
+19
+05
+06
+12
+#428
+1O
+0N
+1K
+0J
+#431
+1G
+09
+#432
+0(
+#433
+1)
+#434
+0O
+#448
+1(
+#449
+0[
+0)
+#454
+1X
+b1100 "
+b1100 Z
+0Y
+#457
+15
+02
+#460
+1N
+1J
+#463
+0H
+0G
+19
+#464
+0(
+#465
+1)
+#466
+0<
+1O
+#469
+0P
+#480
+1(
+#481
+0]
+1\
+1[
+0)
+#486
+1T
+0V
+0X
+0U
+1W
+b1011 "
+b1011 Z
+1Y
+#489
+1=
+09
+05
+0:
+16
+12
+#492
+1P
+0O
+0N
+1L
+0K
+0J
+#495
+1H
+0=
+1G
+#496
+0(
+#497
+1)
+#498
+0P
+18
+#501
+1O
+#512
+1(
+#513
+0[
+0)
+#518
+1X
+b1010 "
+b1010 Z
+0Y
+#521
+15
+02
+#524
+1N
+1J
+#527
+0G
+#528
+0(
+#529
+1)
+#530
+08
+#533
+0O
+#544
+1(
+#545
+0\
+1[
+0)
+#550
+1V
+0X
+0W
+b1001 "
+b1001 Z
+1Y
+#553
+19
+05
+06
+12
+#556
+1O
+0N
+1K
+0J
+#559
+1G
+09
+#560
+0(
+#561
+1)
+#562
+0O
+#576
+1(
+#577
+0[
+0)
+#582
+1X
+b1000 "
+b1000 Z
+0Y
+#585
+15
+02
+#588
+1N
+1J
+#591
+0I
+0H
+1=
+0G
+19
+#592
+0(
+#593
+1)
+#594
+0@
+1P
+1O
+#597
+0Q
+#608
+1(
+#609
+0^
+1]
+1\
+1[
+0)
+#614
+1R
+0T
+0V
+0X
+0S
+1U
+1W
+b111 "
+b111 Z
+1Y
+#617
+1A
+0=
+09
+05
+0>
+1:
+16
+12
+#620
+1Q
+0P
+0O
+0N
+1M
+0L
+0K
+0J
+#623
+1I
+0A
+1H
+1G
+#624
+0(
+#625
+1)
+#626
+0Q
+1<
+18
+#629
+1P
+1O
+#640
+1(
+#641
+0[
+0)
+#646
+1X
+b110 "
+b110 Z
+0Y
+#649
+15
+02
+#652
+1N
+1J
+#655
+0G
+#656
+0(
+#657
+1)
+#658
+08
+#661
+0O
+#672
+1(
+#673
+0\
+1[
+0)
+#678
+1V
+0X
+0W
+b101 "
+b101 Z
+1Y
+#681
+19
+05
+06
+12
+#684
+1O
+0N
+1K
+0J
+#687
+1G
+09
+#688
+0(
+#689
+1)
+#690
+0O
+#704
+1(
+#705
+0[
+0)
+#710
+1X
+b100 "
+b100 Z
+0Y
+#713
+15
+02
+#716
+1N
+1J
+#719
+0H
+0G
+19
+#720
+0(
+#721
+1)
+#722
+0<
+1O
+#725
+0P
+#736
+1(
+#737
+0]
+1\
+1[
+0)
+#742
+1T
+0V
+0X
+0U
+1W
+b11 "
+b11 Z
+1Y
+#745
+1=
+09
+05
+0:
+16
+12
+#748
+1P
+0O
+0N
+1L
+0K
+0J
+#751
+1H
+0=
+1G
+#752
+0(
+#753
+1)
+#754
+0P
+18
+#757
+1O
+#768
+1(
+#769
+0[
+0)
+#774
+1X
+b10 "
+b10 Z
+0Y
+#777
+15
+02
+#780
+1N
+1J
+#783
+0G
+#784
+0(
+#785
+1)
+#786
+08
+#789
+0O
+#800
+1(
+#801
+0\
+1[
+0)
+#806
+1V
+0X
+0W
+b1 "
+b1 Z
+1Y
+#809
+19
+05
+06
+12
+#812
+1O
+0N
+1K
+0J
+#815
+1G
+09
+#816
+0(
+#817
+1)
+#818
+0O
+#832
+1(
+#833
+0[
+0)
+#838
+1X
+b0 "
+b0 Z
+0Y
+#841
+15
+02
+#844
+1N
+1J
+#847
+0I
+1A
+0H
+1=
+0G
+19
+0!
+#848
+0(
+#849
+1)
+#850
+1Q
+1P
+1O
+#864
+1(
+#865
+1^
+1]
+1\
+1[
+0)
+#870
+0R
+0T
+0V
+0X
+1S
+1U
+1W
+b1111 "
+b1111 Z
+1Y
+#873
+0A
+0=
+09
+05
+1>
+1:
+16
+12
+#876
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+#879
+1I
+1H
+1G
+1!
+#880
+0(
+#881
+1)
+#882
+1@
+1<
+18
+#885
+1Q
+1P
+1O
+#896
+1(
