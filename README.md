@@ -1,0 +1,1 @@
+# sn74ls669_verilog
