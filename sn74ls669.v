@@ -1,13 +1,13 @@
 //sn74ls669.sv
 //Author: @RndMnkIII
 //Date: 03/04/2023
-//Rebuild from TI sn74ls669 schematics
+//Build from TI sn74ls669 schematics
 //for simulation assigned a gate delay of 5ns
 `default_nettype none
 `timescale 1ns/1ns
 `define ASYNC_SIMU
 
-module sn74ls669 #(parameter DFF_RISE = 20, DFF_FALL = 21)
+module sn74ls669 #(parameter DFF_RISE = 5, DFF_FALL = 5)
 (
 	input wire CLOCK,
 	input wire U_Dn,
